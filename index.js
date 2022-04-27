@@ -58,7 +58,7 @@ run().catch(console.dir);
 
 
 app.get('/',(req,res)=>{
-    res.send('genius server running')
+    res.send('genius car service server running')
 });
 
 app.listen(port,()=>{
